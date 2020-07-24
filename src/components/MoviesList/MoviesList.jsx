@@ -33,7 +33,7 @@ const getFilmId = (film) => {
 export const getFilmDetail = (films) => {
     return Promise.all(films.map((film) => {
         const id = getFilmId(film);
-        return allfilms[id] ? Promise.resolve(allfilms[id]) : fetch(film).then(async (resp) => {
+        return allfilms[id] ? Promise.resolve(allfilms[id]) : fetch(film.replace('http://','https://')).then(async (resp) => {
             const filmDetail = await resp.json();
             allfilms[getFilmId(filmDetail.url)] = filmDetail;
             return filmDetail;
