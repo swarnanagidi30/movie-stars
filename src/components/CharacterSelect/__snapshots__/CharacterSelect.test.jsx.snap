@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CharacterSelect /> snapshots 1`] = `
+<WithStyles(ForwardRef(Autocomplete))
+  getOptionLabel={[Function]}
+  getOptionSelected={[Function]}
+  loading={false}
+  onChange={[Function]}
+  onClose={[Function]}
+  onOpen={[Function]}
+  open={false}
+  options={Array []}
+  renderInput={[Function]}
+/>
+`;

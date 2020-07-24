@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MoviesList /> snapshots 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className="makeStyles-root-1"
+  container={true}
+  spacing={2}
+>
+  <p
+    className="makeStyles-title-2"
+  >
+    List of Movies:
+  </p>
+  <WithStyles(ForwardRef(List))
+    aria-label="contacts"
+    dense={true}
+  />
+</WithStyles(ForwardRef(Grid))>
+`;
